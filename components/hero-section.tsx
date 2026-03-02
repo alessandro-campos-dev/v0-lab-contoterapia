@@ -14,7 +14,6 @@ export function HeroSection() {
           fill
           className="object-cover object-center"
           priority
-          quality={90}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-black/70" />
       </div>
