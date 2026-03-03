@@ -7,7 +7,9 @@ export function CTAButton() {
 
   return (
     <a
-      href="#"
+      href="https://chat.whatsapp.com/I8ARbTUGyI6IsQ8RuynDWm?mode=gi_t"
+      target="_blank"
+      rel="noopener noreferrer"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
       className="group relative inline-flex items-center justify-center px-10 py-5 overflow-hidden rounded-full transition-all duration-500 ease-out"
