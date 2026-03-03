@@ -7,7 +7,7 @@ export function CTAButton() {
 
   return (
     <a
-      href="https://chat.whatsapp.com/I8ARbTUGyI6IsQ8RuynDWm?mode=gi_t"
+      href="https://chat.whatsapp.com/DsqyasoJrO42AO78RYmTXA?mode=gi_t"
       target="_blank"
       rel="noopener noreferrer"
       onMouseEnter={() => setIsHovered(true)}
