@@ -42,7 +42,7 @@ export function FinalCTASection() {
         <div className="w-16 h-px bg-primary/40 mx-auto mt-12" />
 
         <p className="font-serif text-sm text-primary-foreground/40 mt-8 italic">
-          {"Sua história merece ser contada. Sua dor merece ser ouvida. Seu novo capítulo começa com um clique."}
+          {"Sua história merece ser contada. Sua dor merece ser ouvida. Sua transformação começa com um clique."}
         </p>
       </div>
     </section>

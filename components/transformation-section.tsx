@@ -24,7 +24,7 @@ const benefits = [
   },
   {
     icon: Sparkles,
-    title: "Um novo capítulo começa aqui",
+    title: "Sua nova jornada começa aqui",
     description:
       "Você não precisa mais sobreviver. Chegou a hora de voltar a viver, sonhar e se reconhecer.",
   },
@@ -59,7 +59,7 @@ export function TransformationSection() {
             <span className="text-primary italic">{"finalmente ser você mesma."}</span>
           </h2>
           <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            {"O grupo Novo Capítulo é um espaço sagrado de cura, acolhimento e reconexão. Aqui, sua história é ouvida, validada e transformada."}
+            {"O Laboratório de Contoterapia da Psicóloga Márcia Gaioso é um espaço sagrado de cura, acolhimento e reconexão. Aqui, sua história é ouvida, validada e transformada."}
           </p>
         </div>
 

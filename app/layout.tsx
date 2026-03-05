@@ -8,8 +8,8 @@ const _inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const _playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfair" });
 
 export const metadata: Metadata = {
-  title: 'Novo Capítulo - Você não é culpada. Nunca foi.',
-  description: 'Grupo de acolhimento e contoterapia para mulheres que viveram relacionamentos abusivos. Um espaço seguro para reconectar com sua essência e começar um novo capítulo.',
+  title: 'Laboratório de Contoterapia - Psicóloga Márcia Gaioso',
+  description: 'Laboratório de Contoterapia da Psicóloga Márcia Gaioso. Grupo de acolhimento para mulheres que viveram relacionamentos abusivos. Um espaço seguro para reconectar com sua essência.',
   generator: 'v0.app',
   icons: {
     icon: [
