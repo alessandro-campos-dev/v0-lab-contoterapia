@@ -2,8 +2,14 @@
 
 import { useState } from "react"
 
-export function CTAButton() {
+interface CTAButtonProps {
+  variant?: "default" | "light"
+}
+
+export function CTAButton({ variant = "default" }: CTAButtonProps) {
   const [isHovered, setIsHovered] = useState(false)
+
+  const isLight = variant === "light"
 
   return (
     <a
@@ -16,21 +22,37 @@ export function CTAButton() {
       aria-label="Garantir minha vaga no grupo"
     >
       {/* Background layers */}
-      <span className="absolute inset-0 bg-amber-600 rounded-full transition-all duration-500 group-hover:bg-amber-500" />
+      <span
+        className={`absolute inset-0 rounded-full transition-all duration-500 ${
+          isLight
+            ? "bg-primary-foreground group-hover:bg-primary-foreground/90"
+            : "bg-primary group-hover:bg-primary/90"
+        }`}
+      />
       <span
         className={`absolute inset-0 rounded-full transition-all duration-700 ${
-          isHovered
-            ? "bg-gradient-to-r from-amber-500 to-amber-600 scale-100 opacity-100"
-            : "scale-95 opacity-0"
+          isHovered ? "scale-100 opacity-100" : "scale-95 opacity-0"
+        } ${
+          isLight
+            ? "bg-gradient-to-r from-primary-foreground/95 to-primary-foreground"
+            : "bg-gradient-to-r from-primary/90 to-primary"
         }`}
       />
 
       {/* Glow effect */}
-      <span className="absolute -inset-1 rounded-full bg-amber-400/20 blur-lg opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+      <span
+        className={`absolute -inset-1 rounded-full blur-lg opacity-0 group-hover:opacity-100 transition-opacity duration-500 ${
+          isLight ? "bg-primary-foreground/30" : "bg-primary/30"
+        }`}
+      />
 
       {/* Text */}
-      <span className="relative font-sans font-bold text-sm md:text-base tracking-[0.2em] uppercase text-white">
-        Garantir minha vaga no grupo
+      <span
+        className={`relative font-sans font-bold text-sm md:text-base tracking-[0.15em] uppercase ${
+          isLight ? "text-foreground" : "text-primary-foreground"
+        }`}
+      >
+        {"Quero entrar no grupo"}
       </span>
     </a>
   )
