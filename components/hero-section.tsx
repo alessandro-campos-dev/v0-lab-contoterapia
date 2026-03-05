@@ -9,7 +9,7 @@ export function HeroSection() {
       {/* Background image with overlay */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/3-QvPEaKDd4MAg9pYgkaCCVRdtub3Sxi.png"
+          src="/images/hero-bg.jpg"
           alt="Mulher com expressao emocional - representando a jornada de cura"
           fill
           className="object-cover object-top"

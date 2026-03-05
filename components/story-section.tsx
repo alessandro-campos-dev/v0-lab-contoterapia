@@ -5,19 +5,23 @@ import { useEffect, useRef, useState } from "react"
 
 const slides = [
   {
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1-YMQkTR4hqE3DQJiby7MYfwi6k1d41j.png",
+    image: "/images/story-1-intuicao.jpg",
+    alt: "Mulher sentada sozinha, abracando os joelhos com expressao conflituosa - representando a intuicao ignorada",
     text: "Voce sentiu o alerta, o frio na barriga, de que 'isso nao estava certo'. Mas duvidou de si mesma. Ignorou a intuicao para nao parecer louca, ciumenta ou dramatica.",
   },
   {
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/2-631ZFUv2VEr3vAL8nJXiuDFwDk69A0.png",
+    image: "/images/story-2-silenciada.jpg",
+    alt: "Mulher se olhando no espelho forcando um sorriso enquanto chora - representando a felicidade performada",
     text: "Ouviu 'voce e exagerada', 'isso e coisa da sua cabeca'. Aprendeu a performar felicidade enquanto sua essencia era silenciada.",
   },
   {
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/3-QvPEaKDd4MAg9pYgkaCCVRdtub3Sxi.png",
+    image: "/images/story-3-culpa.jpg",
+    alt: "Mulher sentada em um canto com expressao de resignacao - representando a culpa que nao era dela",
     text: "Se algo dava errado, a culpa era sua. Se ele traia, era porque voce nao foi suficiente. Se ele agredia, era porque voce provocou.",
   },
   {
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/4-BKjqKEKAMA0PAtrXKVDlSlUzXdZolC.png",
+    image: "/images/story-4-sonhos.jpg",
+    alt: "Mulher olhando pela janela com melancolia ao por do sol - representando sonhos trocados pela sobrevivencia",
     text: "Aquela que um dia sonhou, mas trocou os sonhos pela sobrevivencia. Enterrou seus desejos para nao arrumar confusao.",
   },
 ]
@@ -81,7 +85,7 @@ export function StorySection() {
                 <div className="relative aspect-square rounded-2xl overflow-hidden shadow-xl">
                   <Image
                     src={slide.image}
-                    alt={`Historia de superacao ${index + 1}`}
+                    alt={slide.alt}
                     fill
                     className="object-cover"
                     sizes="(max-width: 768px) 100vw, 50vw"
