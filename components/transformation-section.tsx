@@ -2,32 +2,31 @@
 
 import { useEffect, useRef, useState } from "react"
 import { Heart, Shield, Users, Sparkles } from "lucide-react"
-import { CTAButton } from "./cta-button"
 
 const benefits = [
   {
     icon: Heart,
     title: "Acolhimento sem julgamento",
     description:
-      "Um espaco onde voce pode ser vulneravel sem medo. Aqui ninguem vai te chamar de exagerada.",
+      "Um espaço onde você pode ser vulnerável sem medo. Aqui ninguém vai te chamar de exagerada.",
   },
   {
     icon: Shield,
-    title: "Reconexao com sua essencia",
+    title: "Reconexão com sua essência",
     description:
-      "Atraves da contoterapia, voce vai reencontrar a mulher que existia antes da dor. Ela ainda esta la.",
+      "Através da contoterapia, você vai reencontrar a mulher que existia antes da dor. Ela ainda está lá.",
   },
   {
     icon: Users,
     title: "Comunidade de mulheres reais",
     description:
-      "Mulheres que viveram o mesmo que voce. Que entendem sem precisar de explicacao.",
+      "Mulheres que viveram o mesmo que você. Que entendem sem precisar de explicação.",
   },
   {
     icon: Sparkles,
-    title: "Um novo capitulo comeca aqui",
+    title: "Um novo capítulo começa aqui",
     description:
-      "Voce nao precisa mais sobreviver. Chegou a hora de voltar a viver, sonhar e se reconhecer.",
+      "Você não precisa mais sobreviver. Chegou a hora de voltar a viver, sonhar e se reconhecer.",
   },
 ]
 
@@ -55,12 +54,12 @@ export function TransformationSection() {
             {"O que te espera"}
           </p>
           <h2 className="font-serif text-3xl md:text-5xl leading-tight text-foreground mb-6 text-balance">
-            {"Imagine um lugar onde voce pode"}
+            {"Imagine um lugar onde você pode"}
             <br />
-            <span className="text-primary italic">{"finalmente ser voce mesma."}</span>
+            <span className="text-primary italic">{"finalmente ser você mesma."}</span>
           </h2>
           <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            {"O grupo Novo Capitulo e um espaco sagrado de cura, acolhimento e reconexao. Aqui, sua historia e ouvida, validada e transformada."}
+            {"O grupo Novo Capítulo é um espaço sagrado de cura, acolhimento e reconexão. Aqui, sua história é ouvida, validada e transformada."}
           </p>
         </div>
 
@@ -93,7 +92,7 @@ export function TransformationSection() {
 
         <div className="text-center">
           <p className="font-serif text-lg md:text-xl text-foreground/80 italic mb-8">
-            {'"A cura comeca quando voce decide que sua dor merece ser ouvida."'}
+            {'"A cura começa quando você decide que sua dor merece ser ouvida."'}
           </p>
         </div>
       </div>

@@ -8,8 +8,8 @@ const _inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const _playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfair" });
 
 export const metadata: Metadata = {
-  title: 'Novo Capitulo - Voce nao e culpada. Nunca foi.',
-  description: 'Grupo de acolhimento e contoterapia para mulheres que viveram relacionamentos abusivos. Um espaco seguro para reconectar com sua essencia e comecar um novo capitulo.',
+  title: 'Novo Capítulo - Você não é culpada. Nunca foi.',
+  description: 'Grupo de acolhimento e contoterapia para mulheres que viveram relacionamentos abusivos. Um espaço seguro para reconectar com sua essência e começar um novo capítulo.',
   generator: 'v0.app',
   icons: {
     icon: [

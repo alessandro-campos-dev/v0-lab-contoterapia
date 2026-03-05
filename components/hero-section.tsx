@@ -10,7 +10,7 @@ export function HeroSection() {
       <div className="absolute inset-0 z-0">
         <Image
           src="/images/hero-bg.jpg"
-          alt="Mulher com expressao emocional - representando a jornada de cura"
+          alt="Mulher com expressão emocional - representando a jornada de cura"
           fill
           className="object-cover object-top"
           priority
@@ -26,7 +26,7 @@ export function HeroSection() {
         {/* Main headline */}
         <h1 className="font-serif text-4xl md:text-6xl lg:text-7xl leading-tight tracking-tight text-balance">
           <span className="text-primary-foreground/95">
-            {"Voce nao e culpada."}
+            {"Você não é culpada."}
           </span>
           <br />
           <span className="text-primary-foreground/95">
@@ -36,7 +36,7 @@ export function HeroSection() {
 
         {/* Subtitle */}
         <p className="text-base md:text-lg text-primary-foreground/70 max-w-lg leading-relaxed">
-          {"Se voce viveu um relacionamento que te fez duvidar de si mesma, esse espaco foi criado para voce."}
+          {"Se você viveu um relacionamento que te fez duvidar de si mesma, esse espaço foi criado para você."}
           <br />
           <br />
           <span className="font-medium text-primary-foreground/90 uppercase text-sm tracking-widest">

@@ -3,12 +3,12 @@
 import { useEffect, useRef, useState } from "react"
 
 const painPoints = [
-  "Voce sente que perdeu a sua identidade dentro de um relacionamento.",
-  "Voce carrega uma culpa que nunca foi sua.",
-  "Voce aprendeu a se calar para sobreviver.",
-  "Voce tem medo de confiar na sua propria percepcao.",
-  "Voce sorri por fora, mas chora por dentro.",
-  "Voce acha que nao merece algo melhor.",
+  "Você sente que perdeu a sua identidade dentro de um relacionamento.",
+  "Você carrega uma culpa que nunca foi sua.",
+  "Você aprendeu a se calar para sobreviver.",
+  "Você tem medo de confiar na sua própria percepção.",
+  "Você sorri por fora, mas chora por dentro.",
+  "Você acha que não merece algo melhor.",
 ]
 
 export function PainSection() {
@@ -31,15 +31,15 @@ export function PainSection() {
     <section className="py-20 md:py-32 bg-foreground" ref={ref}>
       <div className="max-w-4xl mx-auto px-6 text-center">
         <p className="text-sm tracking-[0.3em] uppercase text-primary-foreground/50 mb-4">
-          {"Voce se identifica?"}
+          {"Você se identifica?"}
         </p>
         <h2 className="font-serif text-3xl md:text-5xl leading-tight text-primary-foreground mb-6 text-balance">
-          {"Se voce chegou ate aqui,"}
+          {"Se você chegou até aqui,"}
           <br />
-          <span className="text-primary italic">{"e porque algo dentro de voce precisa ser ouvido."}</span>
+          <span className="text-primary italic">{"é porque algo dentro de você precisa ser ouvido."}</span>
         </h2>
         <p className="text-base md:text-lg text-primary-foreground/60 max-w-2xl mx-auto mb-16 leading-relaxed">
-          {"Nao e fraqueza. E coragem reconhecer a propria dor. Leia abaixo e veja se alguma dessas frases soa familiar:"}
+          {"Não é fraqueza. É coragem reconhecer a própria dor. Leia abaixo e veja se alguma dessas frases soa familiar:"}
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">

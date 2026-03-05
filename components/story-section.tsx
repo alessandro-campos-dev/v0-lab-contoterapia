@@ -6,23 +6,23 @@ import { useEffect, useRef, useState } from "react"
 const slides = [
   {
     image: "/images/story-1-intuicao.jpg",
-    alt: "Mulher sentada sozinha, abracando os joelhos com expressao conflituosa - representando a intuicao ignorada",
-    text: "Voce sentiu o alerta, o frio na barriga, de que 'isso nao estava certo'. Mas duvidou de si mesma. Ignorou a intuicao para nao parecer louca, ciumenta ou dramatica.",
+    alt: "Mulher sentada sozinha, abraçando os joelhos com expressão conflituosa - representando a intuição ignorada",
+    text: "Você sentiu o alerta, o frio na barriga, de que 'isso não estava certo'. Mas duvidou de si mesma. Ignorou a intuição para não parecer louca, ciumenta ou dramática.",
   },
   {
     image: "/images/story-2-silenciada.jpg",
-    alt: "Mulher se olhando no espelho forcando um sorriso enquanto chora - representando a felicidade performada",
-    text: "Ouviu 'voce e exagerada', 'isso e coisa da sua cabeca'. Aprendeu a performar felicidade enquanto sua essencia era silenciada.",
+    alt: "Mulher se olhando no espelho forçando um sorriso enquanto chora - representando a felicidade performada",
+    text: "Ouviu 'você é exagerada', 'isso é coisa da sua cabeça'. Aprendeu a performar felicidade enquanto sua essência era silenciada.",
   },
   {
     image: "/images/story-3-culpa.jpg",
-    alt: "Mulher sentada em um canto com expressao de resignacao - representando a culpa que nao era dela",
-    text: "Se algo dava errado, a culpa era sua. Se ele traia, era porque voce nao foi suficiente. Se ele agredia, era porque voce provocou.",
+    alt: "Mulher sentada em um canto com expressão de resignação - representando a culpa que não era dela",
+    text: "Se algo dava errado, a culpa era sua. Se ele traía, era porque você não foi suficiente. Se ele agredia, era porque você provocou.",
   },
   {
     image: "/images/story-4-sonhos.jpg",
-    alt: "Mulher olhando pela janela com melancolia ao por do sol - representando sonhos trocados pela sobrevivencia",
-    text: "Aquela que um dia sonhou, mas trocou os sonhos pela sobrevivencia. Enterrou seus desejos para nao arrumar confusao.",
+    alt: "Mulher olhando pela janela com melancolia ao pôr do sol - representando sonhos trocados pela sobrevivência",
+    text: "Aquela que um dia sonhou, mas trocou os sonhos pela sobrevivência. Enterrou seus desejos para não arrumar confusão.",
   },
 ]
 
@@ -59,12 +59,12 @@ export function StorySection() {
       <div className="max-w-5xl mx-auto px-6">
         <div className="text-center mb-16 md:mb-24">
           <p className="text-sm tracking-[0.3em] uppercase text-muted-foreground mb-4">
-            {"Talvez voce se reconheca"}
+            {"Talvez você se reconheça"}
           </p>
           <h2 className="font-serif text-3xl md:text-5xl leading-tight text-foreground text-balance">
-            {"Essa historia pode ser a sua."}
+            {"Essa história pode ser a sua."}
             <br />
-            <span className="text-primary italic">{"E voce nao esta sozinha."}</span>
+            <span className="text-primary italic">{"E você não está sozinha."}</span>
           </h2>
         </div>
 

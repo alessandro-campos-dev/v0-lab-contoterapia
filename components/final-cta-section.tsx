@@ -15,17 +15,17 @@ export function FinalCTASection() {
         <div className="w-16 h-px bg-primary/40 mx-auto mb-8" />
 
         <h2 className="font-serif text-3xl md:text-5xl lg:text-6xl leading-tight text-primary-foreground mb-8 text-balance">
-          {"Voce ja aguentou demais sozinha."}
+          {"Você já aguentou demais sozinha."}
           <br />
           <span className="text-primary italic">{"Chegou a hora de ser acolhida."}</span>
         </h2>
 
         <p className="text-base md:text-lg text-primary-foreground/60 max-w-xl mx-auto mb-6 leading-relaxed">
-          {"Esse grupo e para voce que esta cansada de fingir que esta tudo bem. Para voce que sabe que merece mais, mas ainda nao sabe como chegar la."}
+          {"Esse grupo é para você que está cansada de fingir que está tudo bem. Para você que sabe que merece mais, mas ainda não sabe como chegar lá."}
         </p>
 
         <p className="text-primary-foreground/50 text-sm mb-10">
-          {"Vagas limitadas. O grupo e pequeno e exclusivo para garantir acolhimento real."}
+          {"Vagas limitadas. O grupo é pequeno e exclusivo para garantir acolhimento real."}
         </p>
 
         <CTAButton variant="light" />
@@ -42,7 +42,7 @@ export function FinalCTASection() {
         <div className="w-16 h-px bg-primary/40 mx-auto mt-12" />
 
         <p className="font-serif text-sm text-primary-foreground/40 mt-8 italic">
-          {"Sua historia merece ser contada. Sua dor merece ser ouvida. Seu novo capitulo comeca com um clique."}
+          {"Sua história merece ser contada. Sua dor merece ser ouvida. Seu novo capítulo começa com um clique."}
         </p>
       </div>
     </section>
