@@ -9,53 +9,54 @@ export function HeroSection() {
       {/* Background image with overlay */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/hero-woman.jpg"
-          alt="Mulher olhando para o horizonte em momento de contemplação"
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/3-QvPEaKDd4MAg9pYgkaCCVRdtub3Sxi.png"
+          alt="Mulher com expressao emocional - representando a jornada de cura"
           fill
-          className="object-cover object-center"
+          className="object-cover object-top"
           priority
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-black/70" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/70" />
       </div>
 
       {/* Content */}
-      <div className="relative z-10 flex flex-col items-center justify-center gap-8 px-6 py-20 text-center max-w-4xl mx-auto">
+      <div className="relative z-10 flex flex-col items-center justify-center gap-8 px-6 py-20 text-center max-w-4xl mx-auto mt-20">
         {/* Decorative line */}
-        <div className="w-16 h-px bg-amber-300/60" />
+        <div className="w-16 h-px bg-primary/60" />
 
         {/* Main headline */}
         <h1 className="font-serif text-4xl md:text-6xl lg:text-7xl leading-tight tracking-tight text-balance">
-          <span className="text-white/95">
-            {"A sua história pode ter um novo capítulo."}
+          <span className="text-primary-foreground/95">
+            {"Voce nao e culpada."}
           </span>
           <br />
-          <span className="text-amber-200 italic">
-            {"E ele começa agora."}
+          <span className="text-primary-foreground/95">
+            {"Nunca foi."}
           </span>
         </h1>
 
         {/* Subtitle */}
-        <p className="text-base md:text-lg text-white/70 max-w-lg leading-relaxed tracking-wide">
-          {"A porta proibida já foi aberta. Falta você entrar."}
+        <p className="text-base md:text-lg text-primary-foreground/70 max-w-lg leading-relaxed">
+          {"Se voce viveu um relacionamento que te fez duvidar de si mesma, esse espaco foi criado para voce."}
           <br />
-          <span className="font-medium text-amber-200/80 uppercase text-sm tracking-widest">
-            {"Só para mulheres"}
+          <br />
+          <span className="font-medium text-primary-foreground/90 uppercase text-sm tracking-widest">
+            {"Um grupo de acolhimento e cura para mulheres"}
           </span>
         </p>
 
         {/* Decorative line */}
-        <div className="w-16 h-px bg-amber-300/60" />
+        <div className="w-16 h-px bg-primary/60" />
 
         {/* CTA */}
         <CTAButton />
 
         {/* Price */}
         <div className="flex flex-col items-center gap-1">
-          <span className="text-white/40 text-sm line-through">
+          <span className="text-primary-foreground/40 text-sm line-through">
             {"DE R$ 997,00"}
           </span>
-          <span className="text-amber-200 text-lg font-semibold tracking-wide">
-            {"POR R$ 0,00"}
+          <span className="text-primary text-lg font-semibold tracking-wide">
+            {"ENTRADA GRATUITA"}
           </span>
         </div>
       </div>

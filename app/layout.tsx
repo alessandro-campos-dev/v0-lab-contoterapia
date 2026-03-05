@@ -8,8 +8,8 @@ const _inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const _playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfair" });
 
 export const metadata: Metadata = {
-  title: 'Novo Capítulo - Grupo Exclusivo para Mulheres',
-  description: 'A sua história pode ter um novo capítulo. Garanta sua vaga no grupo exclusivo.',
+  title: 'Novo Capitulo - Voce nao e culpada. Nunca foi.',
+  description: 'Grupo de acolhimento e contoterapia para mulheres que viveram relacionamentos abusivos. Um espaco seguro para reconectar com sua essencia e comecar um novo capitulo.',
   generator: 'v0.app',
   icons: {
     icon: [
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
 }
 
 export const viewport: Viewport = {
-  themeColor: '#8B4513',
+  themeColor: '#9B4D7A',
 }
 
 export default function RootLayout({
