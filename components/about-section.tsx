@@ -19,6 +19,17 @@ export function AboutSection() {
     return () => observer.disconnect()
   }, [])
 
+  const tags = [
+    "Contoterapia",
+    "Psicanálise",
+    "Teoria Sistêmica",
+    "Constelação Familiar",
+    "Theta Healing",
+    "Access Consciousness",
+    "Bioalinhamento",
+    "Nova Medicina",
+  ]
+
   return (
     <section className="py-20 md:py-32 bg-card" ref={ref}>
       <div className="max-w-5xl mx-auto px-6">
@@ -51,29 +62,22 @@ export function AboutSection() {
           </div>
 
           <div className="flex-1 text-center md:text-left space-y-5">
-            <p className="text-foreground/80 leading-relaxed text-base md:text-lg">
-              {"Formada em Psicologia há mais de 20 anos pela PUC-GO, pós-graduada em Gestão Estratégica de Pessoas pela UNIP-GO e em Constelações Sistêmicas pelo IDESV."}
+            <p className="text-foreground/90 leading-relaxed text-lg md:text-xl font-medium">
+              {"Há mais de 20 anos cuidando de histórias que precisavam ser ouvidas."}
             </p>
-            <p className="text-foreground/80 leading-relaxed text-base md:text-lg">
-              {"O processo psicoterápico é baseado em teorias de base como Psicanálise e Teoria Sistêmica, com inserção de terapias integrativas como Nova Medicina, Theta Healing, Access Consciousness, Bioalinhamento, Constelação Familiar, dentre outros."}
-            </p>
-            <p className="text-foreground/80 leading-relaxed text-base md:text-lg">
-              {"Essas terapias integrativas ou energéticas são algumas das formações que podem ser auxiliares nos processos psicoterápicos conduzidos por mim. Para maiores informações acerca do que é, qual objetivo e resultados, indico sites esclarecedores, a maioria sendo com os instrutores oficiais dessas técnicas para aprofundamento no assunto por quem assim desejar."}
+            <p className="text-foreground/70 leading-relaxed text-base md:text-lg">
+              {"Formada em Psicologia pela PUC-GO, pós-graduada em Gestão Estratégica de Pessoas (UNIP-GO) e em Constelações Sistêmicas (IDESV), Márcia une a profundidade da Psicanálise e da Teoria Sistêmica a terapias integrativas para conduzir processos de cura verdadeiros."}
             </p>
 
             <div className="flex flex-wrap justify-center md:justify-start gap-2 pt-4">
-              {[
-                "Psicanálise",
-                "Teoria Sistêmica",
-                "Theta Healing",
-                "Access Consciousness",
-                "Bioalinhamento",
-                "Constelação Familiar",
-                "Nova Medicina",
-              ].map((tag) => (
+              {tags.map((tag, i) => (
                 <span
                   key={tag}
-                  className="text-xs md:text-sm px-3 py-1.5 rounded-full bg-primary/10 text-primary font-medium"
+                  className={`text-xs md:text-sm px-3 py-1.5 rounded-full font-medium ${
+                    i === 0
+                      ? "bg-primary text-primary-foreground"
+                      : "bg-primary/10 text-primary"
+                  }`}
                 >
                   {tag}
                 </span>
