@@ -2,6 +2,7 @@
 
 import Image from "next/image"
 import { useEffect, useRef, useState } from "react"
+import { CTAButton } from "./cta-button"
 
 const slides = [
   {
@@ -104,6 +105,10 @@ export function StorySection() {
               </div>
             </div>
           ))}
+        </div>
+
+        <div className="text-center mt-16">
+          <CTAButton />
         </div>
       </div>
     </section>

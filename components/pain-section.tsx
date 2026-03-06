@@ -1,6 +1,7 @@
 "use client"
 
 import { useEffect, useRef, useState } from "react"
+import { CTAButton } from "./cta-button"
 
 const painPoints = [
   "Você sente que perdeu a sua identidade dentro de um relacionamento.",
@@ -59,6 +60,10 @@ export function PainSection() {
               </p>
             </div>
           ))}
+        </div>
+
+        <div className="mt-16">
+          <CTAButton variant="light" />
         </div>
       </div>
     </section>

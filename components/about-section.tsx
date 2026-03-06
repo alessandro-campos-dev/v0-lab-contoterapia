@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react"
 import Image from "next/image"
+import { CTAButton } from "./cta-button"
 
 export function AboutSection() {
   const [visible, setVisible] = useState(false)
@@ -84,6 +85,10 @@ export function AboutSection() {
               ))}
             </div>
           </div>
+        </div>
+
+        <div className="text-center mt-12">
+          <CTAButton />
         </div>
       </div>
     </section>
