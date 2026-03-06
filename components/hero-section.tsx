@@ -32,7 +32,7 @@ export function HeroSection() {
 
         {/* Subtitle */}
         <p className="text-base md:text-lg text-primary-foreground/70 max-w-lg leading-relaxed">
-          {"Se você viveu um relacionamento que te fez duvidar de si mesma, esse espaço foi criado para você."}
+          {"Término de relacionamento. Mudança de cidade. Troca de carreira. A saída dos filhos de casa. Um diagnóstico inesperado."}
           <br />
           <br />
           <span className="font-medium text-primary-foreground/90 uppercase text-sm tracking-widest">
