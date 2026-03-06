@@ -26,7 +26,7 @@ export function HeroSection() {
         {/* Main headline */}
         <h1 className="font-serif text-4xl md:text-6xl lg:text-7xl leading-tight tracking-tight text-balance">
           <span className="text-primary-foreground/95">
-            {"Término de relacionamento. Mudança de cidade. Troca de carreira. A saída dos filhos de casa. Um diagnóstico inesperado."}
+            {"Passando por uma transição difícil? Você não precisa enfrentar isso sozinha."}
           </span>
         </h1>
 
