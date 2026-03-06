@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react"
 import { Heart, Shield, Users, Sparkles } from "lucide-react"
+import { CTAButton } from "./cta-button"
 
 const benefits = [
   {
@@ -94,6 +95,7 @@ export function TransformationSection() {
           <p className="font-serif text-lg md:text-xl text-foreground/80 italic mb-8">
             {'"A cura começa quando você decide que sua dor merece ser ouvida."'}
           </p>
+          <CTAButton />
         </div>
       </div>
     </section>

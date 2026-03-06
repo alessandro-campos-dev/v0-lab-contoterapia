@@ -2,27 +2,32 @@
 
 import Image from "next/image"
 import { useEffect, useRef, useState } from "react"
+import { CTAButton } from "./cta-button"
 
 const slides = [
   {
     image: "/images/story-1-intuicao.jpg",
-    alt: "Mulher sentada sozinha, abraçando os joelhos com expressão conflituosa - representando a intuição ignorada",
-    text: "Você sentiu o alerta, o frio na barriga, de que 'isso não estava certo'. Mas duvidou de si mesma. Ignorou a intuição para não parecer louca, ciumenta ou dramática.",
+    alt: "Mulher refletindo sobre sua identidade e autoestima",
+    title: "Identidade e Autoestima",
+    text: "Você olha no espelho e não reconhece mais quem está ali. Passou tanto tempo tentando ser o que os outros esperavam que esqueceu quem realmente é. Sua voz foi silenciada, seus desejos enterrados, sua essência apagada.",
   },
   {
     image: "/images/story-2-silenciada.jpg",
-    alt: "Mulher se olhando no espelho forçando um sorriso enquanto chora - representando a felicidade performada",
-    text: "Ouviu 'você é exagerada', 'isso é coisa da sua cabeça'. Aprendeu a performar felicidade enquanto sua essência era silenciada.",
+    alt: "Mulher passando por uma transição de vida difícil",
+    title: "Transições de Vida",
+    text: "Uma mudança de cidade. O fim de um casamento. A saída dos filhos de casa. Uma demissão inesperada. A vida virou de cabeça para baixo e você não sabe mais qual é o próximo passo.",
   },
   {
     image: "/images/story-3-culpa.jpg",
-    alt: "Mulher sentada em um canto com expressão de resignação - representando a culpa que não era dela",
-    text: "Se algo dava errado, a culpa era sua. Se ele traía, era porque você não foi suficiente. Se ele agredia, era porque você provocou.",
+    alt: "Mulher lidando com conflitos familiares",
+    title: "Conflitos Familiares",
+    text: "As feridas da família são as mais profundas. Cobranças, expectativas, mágoas antigas que nunca cicatrizaram. Você carrega o peso de gerações e sente que nunca será suficiente para quem deveria te amar incondicionalmente.",
   },
   {
     image: "/images/story-4-sonhos.jpg",
-    alt: "Mulher olhando pela janela com melancolia ao pôr do sol - representando sonhos trocados pela sobrevivência",
-    text: "Aquela que um dia sonhou, mas trocou os sonhos pela sobrevivência. Enterrou seus desejos para não arrumar confusão.",
+    alt: "Mulher se recuperando de relacionamento abusivo",
+    title: "Relacionamentos Abusivos",
+    text: "Ouviu tantas vezes que era exagerada, dramática ou louca que passou a duvidar da própria percepção. A culpa nunca era dele. Você perdeu sua voz, seus sonhos e quase perdeu a si mesma.",
   },
 ]
 
@@ -59,12 +64,12 @@ export function StorySection() {
       <div className="max-w-5xl mx-auto px-6">
         <div className="text-center mb-16 md:mb-24">
           <p className="text-sm tracking-[0.3em] uppercase text-muted-foreground mb-4">
-            {"Talvez você se reconheça"}
+            {"Você pode estar vivendo uma dessas situações"}
           </p>
           <h2 className="font-serif text-3xl md:text-5xl leading-tight text-foreground text-balance">
-            {"Essa história pode ser a sua."}
+            {"Cada dor tem sua história."}
             <br />
-            <span className="text-primary italic">{"E você não está sozinha."}</span>
+            <span className="text-primary italic">{"E todas merecem acolhimento."}</span>
           </h2>
         </div>
 
@@ -97,13 +102,20 @@ export function StorySection() {
                   <span className="absolute -left-3 top-0 w-6 h-6 rounded-full bg-primary/20 flex items-center justify-center">
                     <span className="w-2 h-2 rounded-full bg-primary" />
                   </span>
-                  <p className="font-serif text-xl md:text-2xl leading-relaxed text-foreground/90 italic">
-                    {`"${slide.text}"`}
+                  <h3 className="font-serif text-2xl md:text-3xl font-medium text-primary mb-4">
+                    {slide.title}
+                  </h3>
+                  <p className="font-serif text-lg md:text-xl leading-relaxed text-foreground/80">
+                    {slide.text}
                   </p>
                 </div>
               </div>
             </div>
           ))}
+        </div>
+
+        <div className="text-center mt-16">
+          <CTAButton />
         </div>
       </div>
     </section>

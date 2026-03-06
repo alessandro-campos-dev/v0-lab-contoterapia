@@ -26,17 +26,13 @@ export function HeroSection() {
         {/* Main headline */}
         <h1 className="font-serif text-4xl md:text-6xl lg:text-7xl leading-tight tracking-tight text-balance">
           <span className="text-primary-foreground/95">
-            {"Você não é culpada."}
-          </span>
-          <br />
-          <span className="text-primary-foreground/95">
-            {"Nunca foi."}
+            {"Passando por uma transição difícil? Você não precisa enfrentar isso sozinha."}
           </span>
         </h1>
 
         {/* Subtitle */}
         <p className="text-base md:text-lg text-primary-foreground/70 max-w-lg leading-relaxed">
-          {"Se você viveu um relacionamento que te fez duvidar de si mesma, esse espaço foi criado para você."}
+          {"Término de relacionamento. Mudança de cidade. Troca de carreira. A saída dos filhos de casa. Um diagnóstico inesperado."}
           <br />
           <br />
           <span className="font-medium text-primary-foreground/90 uppercase text-sm tracking-widest">
@@ -53,7 +49,7 @@ export function HeroSection() {
         {/* Price */}
         <div className="flex flex-col items-center gap-1">
           <span className="text-primary-foreground/40 text-sm line-through">
-            {"DE R$ 997,00"}
+            {"DE R$ 29,90"}
           </span>
           <span className="text-primary text-lg font-semibold tracking-wide">
             {"ENTRADA GRATUITA"}

@@ -32,7 +32,7 @@ export function FinalCTASection() {
 
         <div className="flex flex-col items-center gap-1 mt-8">
           <span className="text-primary-foreground/30 text-sm line-through">
-            {"DE R$ 997,00"}
+            {"DE R$ 29,90"}
           </span>
           <span className="text-primary text-lg font-semibold tracking-wide">
             {"ENTRADA GRATUITA"}
