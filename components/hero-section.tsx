@@ -34,10 +34,6 @@ export function HeroSection() {
           <span className="text-primary-foreground drop-shadow-lg">
             {"Passando por uma transição difícil?"}
           </span>
-          <br />
-          <span className="text-primary font-medium">
-            {"Você não precisa enfrentar isso sozinha."}
-          </span>
         </h1>
 
         {/* Subtitle com destaque */}
