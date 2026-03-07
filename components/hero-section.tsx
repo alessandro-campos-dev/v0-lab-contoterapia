@@ -49,7 +49,7 @@ export function HeroSection() {
             <p className="text-xl md:text-2xl font-serif text-primary-foreground font-medium mb-2">
               {"Venha para o meu"}
             </p>
-            <p className="text-2xl md:text-4xl font-serif text-primary font-bold mb-4">
+            <p className="text-2xl md:text-4xl font-serif text-white font-bold mb-4">
               {"Laboratório de Contoterapia"}
             </p>
             <div className="flex items-center justify-center gap-4 text-primary-foreground/90">
