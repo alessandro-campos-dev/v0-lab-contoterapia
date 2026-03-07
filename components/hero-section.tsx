@@ -36,7 +36,7 @@ export function HeroSection() {
           <br />
           <br />
           <span className="font-medium text-primary-foreground/90 uppercase text-sm tracking-widest">
-            {"Um grupo de acolhimento e cura para mulheres"}
+            {"Venha para o meu Laboratório de Contoterapia no dia 10/03 às 20h é Gratuito!"}
           </span>
         </p>
 
