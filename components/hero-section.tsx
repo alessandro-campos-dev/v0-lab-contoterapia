@@ -25,7 +25,7 @@ export function HeroSection() {
         <div className="inline-flex items-center gap-2 bg-primary/90 text-primary-foreground px-6 py-3 rounded-full shadow-lg animate-pulse">
           <span className="w-2 h-2 bg-white rounded-full" />
           <span className="font-semibold text-sm md:text-base uppercase tracking-wide">
-            {"Evento Gratuito - 10/03 às 20h"}
+            {"Evento Gratuito - 30/03 às 20h"}
           </span>
         </div>
 
