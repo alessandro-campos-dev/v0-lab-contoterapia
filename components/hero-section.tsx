@@ -54,7 +54,7 @@ export function HeroSection() {
             </p>
             <div className="flex items-center justify-center gap-4 text-primary-foreground/90">
               <span className="bg-white/20 px-4 py-2 rounded-lg font-semibold">
-                {"10 de Março"}
+                {"30 de Março"}
               </span>
               <span className="bg-white/20 px-4 py-2 rounded-lg font-semibold">
                 {"20h"}
